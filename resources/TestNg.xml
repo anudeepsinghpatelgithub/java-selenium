@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite" verbose="2">
+<test name="Regression1">
+	<parameter name="browser" value="chrome" />
+	<parameter name="fbEmail" value="" />
+	<parameter name="fbPassword" value="" />
+	
+	<parameter name="whEmail" value="" />
+	<parameter name="whPassword" value="" />
+	<parameter name="whUserName" value="" />
+	<groups>
+		<run>
+			<include name="postStatus" />
+			<include name="writeReview" />
+		</run>
+	</groups>
+
+	<packages>
+		<package name="my.selenium.test.tests" />
+	</packages>
+</test>
+</suite>
