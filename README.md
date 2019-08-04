@@ -8,7 +8,7 @@
 # How to run
 1. Clone this prject
 2. go to root directory of the cloned project
-3. go to `resources` and update the value for parameters
+3. go to `resources` and update the value for parameters in TestNg.xml
 ```xml
 <parameter name="fbEmail" value="" />
 <parameter name="fbPassword" value="" />
@@ -18,7 +18,7 @@
 ```
 3. go to `resources` folder and run `chmod 777 chromedriver`
 4. and come to back to root directory again
-5 run `mvn clean`
+5. run `mvn clean`
 6. run `mvn install`
 
 
